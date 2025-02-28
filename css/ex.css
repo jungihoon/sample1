@@ -16,4 +16,19 @@ a {
 
 header {
   background: salmon;
+  display: flex;
+  justify-content: space-between;
+}
+header nav {
+  width: 60%;
+  margin-top: 10px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li {
+  width: 25%;
 }
